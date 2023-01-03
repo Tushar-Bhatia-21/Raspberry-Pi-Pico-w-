@@ -44,6 +44,8 @@ All the required components are now installed on your system.
 3. Do the same for CMAKE extension, CMAKE tools extensions.
 4. If each extension is installed <b>Congratulations</b>, now you can start devlopment.
 
+<b>Now it is recommended to check out Build SDK using CMAKE</b>
+
 <b>For MAC Systems</b>
 
 To help us in devlopment and ease our installation process, we are going to download Homebrew.
@@ -51,7 +53,19 @@ To help us in devlopment and ease our installation process, we are going to down
 1. Download and install Homebrew using the following command or by the following link.
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    https://brew.sh/
-2. Copy the above command and open Terminal.
-   To open terminal use the following link.
+2. Copy the above command and open Terminal. To open terminal use the following link.
    https://support.apple.com/en-in/guide/terminal/apd5265185d-f365-44cb-8b09-71a064a42125/mac#:~:text=Terminal%20for%20me-,Open%20Terminal,%2C%20then%20double%2Dclick%20Terminal.
-3.    
+ 
+<b>Installing Toolchain</b>
+
+    To install the toolchain write the following commmands in the terminal.
+    $ brew install cmake
+    $ brew tap ArmMbed/homebrew-formulae
+    $ brew install arm-none-eabi-gcc
+
+<b>If you are using Apple M1-based Mac you will need to install Rosetta 2 as the Arm compiler is still only compiled for x86 processors and does not have an Arm native version</b>
+
+    To do the above, paste the following command in homebrew.
+    $ /usr/sbin/softwareupdate --install-rosetta --agree-to-license
+
+If you have followed the above steps, the toolchain is now installed.
