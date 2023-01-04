@@ -69,3 +69,10 @@ To help us in devlopment and ease our installation process, we are going to down
     $ /usr/sbin/softwareupdate --install-rosetta --agree-to-license
 
 If you have followed the above steps, the toolchain is now installed.
+
+<b>VSCODE SETUP</b>
+
+1. Download and install Vscode using the following link.
+```    https://code.visualstudio.com/download
+```
+2. 
