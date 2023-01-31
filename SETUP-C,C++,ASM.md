@@ -73,6 +73,11 @@ If you have followed the above steps, the toolchain is now installed.
 <b>VSCODE SETUP</b>
 
 1. Download and install Vscode using the following link.
-```    https://code.visualstudio.com/download
+```    
+https://code.visualstudio.com/download
 ```
-2. 
+2. Open the browser's download list and locate the downloaded app or archive.
+3. If archive, extract the archive contents.
+4. Drag the <b> Visual Studio Code.app</b> to the <b> Applications </b> folder, making it available in the MAC OS Launchpad.
+5. Open Vscode from the <b> Applications </b> folder, by double clicking the icon.
+ 
